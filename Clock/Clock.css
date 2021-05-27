@@ -1,0 +1,55 @@
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+html {
+    background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+}
+.clock-container {
+    
+    display: flex;
+    justify-content: center;
+}
+.clock-border {
+    border : 10px solid white;  
+    position: relative; 
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.min-hand {
+    position: absolute;
+    width: 50%;
+    height: 4px;
+    left: 0;
+    transform-origin: right;
+    background-color: darkgreen;
+    transform: rotate(90deg);
+}
+.hour-hand {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    height: 4px;
+    transform-origin: right;
+    background-color: darkgreen;
+    transform: rotate(90deg);
+}
+
+.second-hand {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    height: 4px;
+    transform-origin: right;
+    background-color: darkgreen;
+    transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
