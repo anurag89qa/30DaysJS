@@ -25,7 +25,7 @@ html {
 .min-hand {
     position: absolute;
     width: 50%;
-    height: 4px;
+    height: 6px;
     left: 0;
     transform-origin: right;
     background-color: darkgreen;
@@ -35,10 +35,11 @@ html {
     position: absolute;
     width: 50%;
     left: 0;
-    height: 4px;
+    height: 8px;
     transform-origin: right;
     background-color: darkgreen;
     transform: rotate(90deg);
+    border-radius: 4px 4px 0 0;
 }
 
 .second-hand {
